@@ -1,0 +1,46 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+
+     box-sizing: border-box; /* IE */
+
+     font-size: 15px;
+}
+
+header{
+  width: 100%;
+  height: 250px;
+  border: 1px solid black;
+  display: flex;
+}
+
+ .red, #logo, nav {
+  width: 33.3333%;
+  height: 250px;
+  border: 1px solid black;
+}
+
+.red{
+  background: #D1001C;
+}
+
+#logo{
+
+}
+
+nav{
+  background: #005C0B;
+  display: flex;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.8em;
+}
+
+nav li{
+  list-style: none;
+  display: inline;
+}
